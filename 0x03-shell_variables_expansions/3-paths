@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | grep ^d
+find $PZTH -type f -depth 1 | wc -l
